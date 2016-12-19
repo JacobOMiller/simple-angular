@@ -13,5 +13,8 @@
     "nodejs"
   ],
   "author": "Jacob Miller",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.9.4"
+  }
 }
