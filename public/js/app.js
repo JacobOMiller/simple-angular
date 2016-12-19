@@ -15,15 +15,18 @@ app.config([
         $stateProvider
             .state('home',{
                 url:'/',
-                template: '<h2>home</h2>'
+                //template: '<h2>home</h2>'
+                templateUrl: 'templates/home.html'
             })
             .state('about',{
                     url:'/about',
-                    template: '<h2>about</h2>'
+                    // template: '<h2>about</h2>'
+                        templateUrl: 'templates/about.html'
             })
             .state('contact',{
                 url:'/contact',
-                template: '<h2>contact</h2>'
+                // template: '<h2>contact</h2>'
+                    templateUrl: 'templates/contact.html'
         });
     }
 ])
