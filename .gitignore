@@ -2,3 +2,7 @@
 
 #ignore node modules folder
 node_modules/
+#ignore db.json
+db.json
+#ignore the bower lib folder
+public/lib
